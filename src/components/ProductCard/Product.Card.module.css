@@ -1,0 +1,44 @@
+
+.ProductCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+border-radius: 5px;
+margin: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+max-width: 200px;
+max-height: auto;
+
+}
+.ProductCard:hover {
+    scale: 1.05;
+    transition: 0.5s ease-in;
+}
+.ProductCard_button {
+    background-color: rgb(146, 145, 145);
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-family: "Rethink Sans", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.ProductCard_name {
+    font-size: 26px;
+}
+.ProductCard_name:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+.ProductCard_button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s ease-out;
+    cursor: pointer;
+}

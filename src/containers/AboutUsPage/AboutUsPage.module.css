@@ -1,0 +1,53 @@
+
+body{
+    font-family: "Rethink Sans", sans-serif;
+    margin: 0%;
+}
+h1 {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+p {
+    
+    color: grey;
+    font-size: 20px;
+}
+
+.Productlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.Productlist_card {
+    max-width: 20%;
+    width: 20%;
+    
+}
+
+.AudioText
+{
+    font-weight: 600;
+    color: white;
+    font-family: "Rethink Sans", sans-serif;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 60px;
+}
+
+.FirstPage {
+    background-image: url(../../assets/FirstPage.jpg);
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
