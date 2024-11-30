@@ -15,6 +15,11 @@ const AboutUsPage = () => {
             })}
             </div>
         </div>
+        <section class="Promociones">
+            <div class={css.TextProm}>
+                <h1>Promociones </h1>
+                 </div>
+        </section>
         </body>
         
     ) ;
