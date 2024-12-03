@@ -19,6 +19,16 @@ const AboutUsPage = () => {
             <div class={css.TextProm}>
                 <h1>Promociones </h1>
                  </div>
+                 <div> 
+                    <div> <img src=""/> </div>
+                    <div> 
+                        <h3> </h3>
+                        <h4> </h4>
+                        <h5> </h5>
+                        
+                    </div>
+                 </div>
+
         </section>
         </body>
         

@@ -16,15 +16,30 @@ export const products = [
     {
         id: 3,
         name: 'Sony WF-1000XM4',
-        price: 6799+ " MXN",
+        price: 6799 + " MXN",
         description: 'Noise cancelling avanzado y la calidad de sonido a otro nivel. Adaptables a tu entorno.',
         image: '../../public/Sony_WF-1000XM4,jpeg'
     },
     {
         id: 4,
         name: 'Apple Airpods 2 pro ',
-        price: 4360+ " MXN",
+        price: 4360 + " MXN",
         description: 'Audio adaptativo a tu nivel. Audio espacial personalizado. con chip  H2 de última generación.',
         image: '../../public/Airpods-pro-2.png'
+    },
+
+    {   id: 5,
+        name: "Bocína inalámbrica SONY XB100" ,
+        price: 984 + "MXN" , 
+        description: "Sonido nítido y abrasador", 
+        image: '../../public/Airpods-pro-2.png'
+
+    },
+    {   id: 6,
+        name: "Audífonos Over Ear SkullCandy Hesh" ,
+        price: 1200 + "MXN" , 
+        description: "Con 22h de autonomía", 
+        image: '../../public/Airpods-pro-2.png'
+
     }
 ]
