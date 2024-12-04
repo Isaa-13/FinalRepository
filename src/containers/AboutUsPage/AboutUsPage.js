@@ -10,6 +10,7 @@ const AboutUsPage = () => {
             <ul> 
                 <li> <Link to="/about" > inicio</Link> </li>
                 <li> <Link to="/Cart" > Carrito</Link></li>
+                <li> <Link to="/Acercade" > Acerca de</Link></li>
             </ul>
 
         </nav>

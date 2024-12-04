@@ -2,6 +2,7 @@ import {
     AboutUsPage,
     HomePage } from "./containers";
 import CartPage from "./containers/cartPage/cartPage";
+import Acercade from "./containers/Acercade/Acercade";
 
 export const routes = [
     {
@@ -16,5 +17,9 @@ export const routes = [
     {
         path: "/cart",
         element: <CartPage />
+    },
+    {
+        path:"/Acercade",
+        element: <Acercade />
     }
 ]
