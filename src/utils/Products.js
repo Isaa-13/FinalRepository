@@ -37,7 +37,7 @@ export const products = [
     },
     {   id: 6,
         name: "Audífonos Over Ear SkullCandy Hesh" ,
-        price: 1200 + "MXN" , 
+        price: 1200  , 
         description: "Con 22h de autonomía", 
         image: '../../public/Airpods-pro-2.png'
 

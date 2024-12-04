@@ -3,6 +3,30 @@ body{
     font-family: "Rethink Sans", sans-serif;
     margin: 0%;
 }
+
+
+nav {
+    background-color: darkblue;
+    margin: 0;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+nav ul 
+{
+    text-align: right;
+    display: inline-flex;
+    gap: 30px;
+    
+}
+
+nav ul li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+}
 h1 {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
@@ -52,7 +76,133 @@ p {
     background-size: cover;
 }
 
-.TextProm {
-    height: 600;
-    font-size: 45px;
+.PromTitle {
+    
+    font-weight: 600;
+    color: black;
+    font-family: "Rethink Sans", sans-serif;
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+
+.Prom_img img
+{
+    width: 500px;
+    height: 500px;
+}
+
+.Promotion_card {
+    display: flex;
+    flex-direction: row;
+}
+
+.Prom_desc{
+    text-align: right;
+    width: 100%;
+    padding-right: 8%;
+}
+
+.Promcard_name {
+    font-size: 40px;
+}
+
+.Promcard_desc {
+    font-size: 22px;
+    text-align: right;
+    padding-left: 30px;
+}
+
+footer
+{
+    background-color: darkblue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.Footer_section {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 120px;
+    justify-content: center;
+}
+.Footer_text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Footer_text h2{
+    font-size: 24px;
+    color: white;
+}
+
+.Footer_text a {
+    padding-bottom: 10px;
+    padding-left: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.Footer_text a:hover {
+    text-decoration: underline;
+    color: #ac2783;
+}
+
+
+.categories {
+    height: auto;
+}
+
+.categories div {
+   text-align: center;
+   
+}
+.categories div a {
+   text-decoration: none;
+}
+.categories div a p
+{
+   height: 300;
+   font-size: 34px;
+   color: white; 
+   padding-top: 10%;
+   
+}
+.Bg_categories1{
+   background-image: url(../../assets/bg_produccion.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   width: 100%;
+   padding-bottom: 20px;
+}
+.Bg_categories2{
+   background-image: url(../../assets/bg_audifonos.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   width: 100%;
+   padding-bottom: 20px;
+}
+.Bg_categories3{
+   background-image: url(../../assets/bg_bocinas.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   width: 100%;
+   padding-bottom: 20px;
+}
+.Bg_categories4{
+   background-image: url(../../assets/bg_instrumentos.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   width: 100%;
+   padding-bottom: 20px;
 }

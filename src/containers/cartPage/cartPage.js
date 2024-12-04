@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import { products } from "../../utils/Products";
 import css from "./cartPage.modules.css";
 const CartPage = () => {
@@ -6,8 +7,16 @@ const CartPage = () => {
     const cart = JSON.parse(localStorage.getItem("cart-Apolo"))||[];
     console.log ("cart", cart);
     return (
+
+
         <div className = {css.CartPage} >
-            <h1> CartPage </h1>
+                  <nav> 
+            <ul> 
+            <li> <Link to="/about" > inicio</Link> </li>
+            <li> <Link to="/Cart" > Carrito</Link></li>
+            </ul>
+
+        </nav>
 
             <div className= {css.CartPage_list}>
 
@@ -53,6 +62,33 @@ const CartPage = () => {
             }, 0) : 0}
 
         </div>
+
+
+        <footer>
+    <div class="Footer_section"> 
+        <div class="Footer_text"> 
+            <h2> Sobre nosotros</h2>
+            <a href=""> Quiénes somos </a>
+            <a href=""> Nuestras tiendas </a>
+            <a href=""> Alianzas y colaboraciones </a>
+            <a href=""> Trabaja con nosotros </a>
+        </div>
+        <div class="Footer_text"> 
+            <h2> Información de envío</h2>
+            <a href=""> Cómo utilizamos tus datos </a>
+            <a href=""> Tu información está protegida </a>
+            <a href=""> Nuestro centro de envío </a>
+            <a href=""> Políticas de devolución </a>
+        </div>
+        <div class="Footer_text"> 
+            <h2> Métodos de pago</h2>
+            <a href=""> Tarjetas de débito </a>
+            <a href=""> Puntos Apolo </a>
+            <a href=""> Transferencias </a>
+            <a href=""> Dépositos en tiendas </a>
+        </div>
+    </div>
+    </footer>
     </div>
     )
 }
