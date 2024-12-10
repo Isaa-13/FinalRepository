@@ -13,7 +13,7 @@ const Acercade = ()  => {
 
         </nav>
 
-
+        <section class="About_text">
     <div className={css.Acerca_texto}>
         <h1> Sobre nosotros</h1>
         <p> Somos una tienda dedicada 100% a la venta de equipo de sonido. Contamos con 6 años de experiencia en este rubro.
@@ -29,7 +29,9 @@ const Acercade = ()  => {
         <p>Responsabilidad </p>
         <p> Efectividad</p>
         <p> trato con el cliente</p>
+        <video src="../../assets/Bg_video.mp4" autoplay loop muted preload="auto"> </video>
     </div>
+    </section>
     <footer>
     <div class={css.Footer_section}> 
         <div class={css.Footer_text}> 
